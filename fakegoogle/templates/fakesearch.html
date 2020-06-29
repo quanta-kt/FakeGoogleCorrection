@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <title>Fake google</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container is-center">
+
+            <div class="columns">
+                <div class="column is-6">
+                    <p class="title">Generated result:</p>
+                </div>
+            </div>
+
+            <div class="columns">
+                <iframe class="column is-5" src="/rendeer?{{query}}" style="height: 300px;"></iframe>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <a href="https://bulma.io">
+                        <img src="/static/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

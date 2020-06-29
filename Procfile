@@ -1,0 +1,1 @@
+web: waitress-serve --port=$PORT --call fakegoogle:create_app

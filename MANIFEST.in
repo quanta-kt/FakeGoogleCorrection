@@ -1,0 +1,3 @@
+graft fakegoogle/static
+graft fakegoogle/templates
+global-exclude *.pyc
