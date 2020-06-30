@@ -14,8 +14,8 @@ def result_page():
     return render_template('fakesearch.html', query=request.query_string.decode('utf-8'))
 
 
-@blueprint.route('/rendeer')
-def rendeer():
+@blueprint.route('/render')
+def render():
     term = request.args.get('term')
     correction = request.args.get('correction')    
     return render_template('render_page.html', term=term, correction=correction)
